@@ -9,7 +9,7 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = caterina
+BOOTLOADER = qmk-dfu
 
 # Build Options
 #   change to "no" to disable the options, or define them in the Makefile in
@@ -26,7 +26,7 @@ MIDI_ENABLE = no            # MIDI controls
 AUDIO_ENABLE = no           # Audio output on port C6
 UNICODE_ENABLE = no         # Unicode
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
-RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
+RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.
 RGB_MATRIX_ENABLE = no
 RGB_MATRIX_DRIVER = WS2812
 
