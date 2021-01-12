@@ -1,16 +1,4 @@
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-      tap_code(KC_MNXT);
-/* Copyright 2020 Ben Roesner (keycapsss.com)
- *
+/*
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -37,7 +25,7 @@ Resolutions
 |-----+-----+-----+-----|
 |     |     |     |  E2 | 8
 |-----+-----+-----+-----|
-u|     |     |     |  E1uuuu | 4
+|     |     |     |  E1 | 4
 `-----------------------'
 */
 

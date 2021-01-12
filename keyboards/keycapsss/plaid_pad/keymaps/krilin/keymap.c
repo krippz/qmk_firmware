@@ -68,9 +68,9 @@ Rev1.1
   // First encoder (E1)
   if (index == 0) {
     if (clockwise) {
-      tap_code16(C(KC_RGHT));
-    } else {
       tap_code16(C(KC_LEFT));
+    } else {
+      tap_code16(C(KC_RGHT));
     }
   // Second encoder (E2)
   } else if (index == 1) {
